@@ -11,4 +11,13 @@ i was segmenting that youtube audiofile with Start-End time.
 
 and i applied some preprocessing like data cleaning, wav file format 16bit 16khz mono, and then use it deepspeech training.
 
+step 1: downloading .mp3 playlist for youbute indian speakers with .vtt subtitle file
+
+python3 youtube_download.py
+
+step 2: segmenting that youtube audiofile with Start-End time
+
+python3 text1.py
+
+
 
