@@ -17,13 +17,13 @@ import csv
 import unicodedata
 
 
-outputdir = "/home/dell/Music/myc_project/21-09-2018/youtubedownloadscripts/speech_data/train_demo"
+outputdir = "../youtubedownloadscripts/speech_data/train_demo"
 vtt_files = []
 count=0
 current_occurance =""
 wav_filename =""
-wav_fileDir = '/home/dell/Music/myc_project/21-09-2018/youtubedownloadscripts/speech_data/wav_demo'
-rootDir = '/home/dell/Music/myc_project/21-09-2018/youtubedownloadscripts/speech_data/vtt_demo'
+wav_fileDir = '../youtubedownloadscripts/speech_data/wav_demo'
+rootDir = '../youtubedownloadscripts/speech_data/vtt_demo'
 
 fileList = [f for f in listdir(rootDir) if isfile(join(rootDir, f))]
 for fname in fileList:
